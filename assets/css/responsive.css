@@ -1,0 +1,84 @@
+/*******************************
+	All Responsive Code
+*******************************/
+/* Medium layout: 1200px, */
+
+@media only screen and (min-width:992px) and (max-width: 1200px) {
+.single-about-content h3 {
+	padding-left: 48px;
+}
+.contact-form input {
+	margin-right: 11px;
+}
+
+}
+
+/* Tablet layout: 768px, */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+.single-about-content {
+	margin-bottom: 60px;
+}
+.contact-form input {
+	margin-right: 10px;
+}
+.clients-logo {
+	margin-bottom: 50px;
+}
+}
+
+/* Mobile layout: 320px, */
+@media only screen and (max-width:767px)  {
+.main-menu{display: none;}	
+.slicknav_menu{display:block;}	
+.single-portfolio img {
+	min-width: 100%;
+}
+.clients-logo {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.contact-form input {
+	margin-right: 0;
+}
+.footer-area p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-menu {
+  text-align: center;
+}
+.header-content h2 {
+	font-size: 25px;
+}
+
+.slicknav_menu {
+  background: transparent;
+}
+.slicknav_btn {
+  background: #FFE600;
+  box-shadow: 0 0 0;
+  text-shadow: 0 0 0;
+  border-radius: 0;
+}
+.slicknav_nav li a {
+  text-transform: uppercase;
+}
+.slicknav_nav ul li a {
+  color: #333;
+}
+.slicknav_nav a {
+  color: #929292;
+}
+.slicknav_nav a:hover {
+  background-color: #fff;
+}
+.menu-mobile {
+	margin-top: -46px;
+}
+
+}
+
+/* wide mobile layout: 480px, */
+@media only screen and (min-width:480px) and (max-width: 767px) {
+
+}
